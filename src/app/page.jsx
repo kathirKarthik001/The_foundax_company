@@ -12,7 +12,7 @@ export default function Home() {
                         <h1>Let's get digital</h1>
                          <br/>
                          <h3>Foster your future with <br/> Foundax</h3> 
-                        <Link href="/about">LEARN MORE</Link>
+                        <Link href="/about" className="underline">LEARN MORE</Link>
                   </div>
       </div>
 
