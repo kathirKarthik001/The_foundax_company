@@ -1,0 +1,9 @@
+.imgHeader {
+    background: url('/bg1.jpeg') no-repeat; 
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+  }
