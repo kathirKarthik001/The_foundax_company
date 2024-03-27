@@ -7,7 +7,6 @@ import { useState ,useRef } from 'react';
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   const [dropbox , setDropbox] = useState(false);
-  // const timeoutRef = useRef(null);
 
   const toggleDropbox =() =>{
     setDropbox(!dropbox)
