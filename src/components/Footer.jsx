@@ -14,6 +14,8 @@ const Footer = () => {
 
   return (
     <>
+   
+    
     <div className="md:bg-blue-400  md:py-[10px] w-full  h-fit flex justify-evenly items-start  pt-0 mt-0
     max-md:flex-col max-md:items-center text-white  cursor-pointer ">
       {/* First Section */}
