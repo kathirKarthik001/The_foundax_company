@@ -81,7 +81,7 @@ const Footer = () => {
    <div className='bg-white flex justify-between md:p-[20px] max-md:p-[10px] w-[100%] text-center'>
 
     <p className='md:w-[300px] text-start '>
-    © 2023 - 2025 | Alrights reserved by thefoundaxcompany
+    © 2023 - 2025 | All rights reserved by thefoundaxcompany
     </p>
 
 

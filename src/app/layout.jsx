@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <div className="md:pt-[100px] max-sm:pt-[83px]">
             {children}
         </div>
+        <Connect/>
         <Footer/>
        </body>
     </html>

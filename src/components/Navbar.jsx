@@ -23,7 +23,7 @@ function NavBar() {
   
   return (
     <header className='block'>
-      <nav className="w-full bg-white shadow-md fixed left-0 right-0 block ">
+      <nav className="w-full bg-white shadow-md fixed left-0 right-0 block  z-10">
 
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 block">
 
