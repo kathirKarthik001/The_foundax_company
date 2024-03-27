@@ -7,7 +7,7 @@ import { useState ,useRef } from 'react';
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   const [dropbox , setDropbox] = useState(false);
-  const timeoutRef = useRef(null);
+  // const timeoutRef = useRef(null);
 
   const toggleDropbox =() =>{
     setDropbox(!dropbox)
@@ -22,10 +22,10 @@ function NavBar() {
   };
   
   return (
-    <div>
-      <nav className="w-full bg-white shadow-md fixed top-0 left-0 right-0 z-10">
+    <header className='block'>
+      <nav className="w-full bg-white shadow-md fixed top-0 left-0 right-0 block ">
 
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 block">
 
           <div>
 
@@ -79,39 +79,56 @@ function NavBar() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
 
-                <li className="pb-2 text-xl text-blue-600 py-2 md:px-3 text-center border-b-2 md:border-b-0  hover:bg-purple-900  md:hover:border-b border-10 border-blue-600 md:hover:bg-transparent">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
-                    Home
-                  </Link>
+              
+                <li className="pb-2 text-xl  text-blue-600 py-2 md:px-3 text-center border-b-10 md:border-b-0    md:hover:border-b  border-blue-600 md:hover:bg-transparent ">
+                    <Link href="/" onClick={() => setNavbar(!navbar)}>
+                      Home
+                    </Link>
                 </li>
+               
 
-                <li className="pb-2 text-xl text-blue-600 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  md:hover:border-b border-10 border-blue-600 md:hover:bg-transparent">
-                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                <li className="pb-2 text-xl text-blue-600 py-2 px-6 text-center  border-b-0 md:border-b-0   md:hover:border-b border-10 border-blue-600 md:hover:bg-transparent ">
+                  <Link href="/about" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>
                 </li>
 
-                <li className="pb-2 text-xl relative text-blue-600 py-2 px-6 text-center  border-b-2 md:border-b-0   sm:hover:border-b border-blue-600 md:hover:bg-transparent" >
-                  <Link href="/" >
-                   <button onClick={toggleDropbox} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Services &#9662; </button>
-                  </Link>
+                <li className="pb-2 text-xl relative text-blue-600 py-2 px-6 text-center    md:hover:bg-transparent " >
+                  {/* <Link href="/" > */}
+                   <button onClick={toggleDropbox} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Services  </button>
+                  {/* </Link> */}
                   {dropbox && (
-                    <ul className="md:absolute sm:block z-10 left-0  bg-white border border-gray-200" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
-                        <li className="py-2 cursor-pointer px-4 hover:border-b border-blue-600  hover:bg-gray-100">Marketing</li>
-                        <li className="py-2 px-4 cursor-pointer hover:border-b border-blue-600  hover:bg-gray-100">Websites</li>
-                        <li className="py-2 px-4 cursor-pointer hover:border-b border-blue-600  hover:bg-gray-100">Designing</li>
+                    <ul className="md:absolute sm:block z-10 left-0  bg-white border-y border-blue-600 sm:border-y-0  
+                    rounded-md md:shadow-md" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
+                        <li className="py-2 cursor-pointer px-4 hover:border-b border-blue-600  hover:bg-gray-100">
+                            <Link href="/services/marketing"onClick={() => {setNavbar(!navbar) ;toggleDropbox()}} >
+                                Marketing
+                            </Link>
+                        </li>
+
+                        <li className="py-2 px-4 cursor-pointer hover:border-b border-blue-600  hover:bg-gray-100">
+                            <Link href="/services/tech" onClick={() =>{setNavbar(!navbar) ;toggleDropbox()} } >
+                                 Websites
+                             </Link>
+                        </li>
+
+                        <li className="py-2 px-4 cursor-pointer hover:border-t border-blue-600  hover:bg-gray-100">
+                            <Link href="/services/designing" onClick={() => {setNavbar(!navbar) ;toggleDropbox()}} >
+                               Designing
+                            </Link> 
+                        </li>
                     </ul>
                     )}
                 </li>
 
-                <li className="pb-2 text-xl text-blue-600 py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-purple-600  md:hover:border-b border-blue-600 md:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                <li className="pb-2 text-xl text-blue-600 py-2 px-6 text-center  border-b-0 md:border-b-0 md:hover:border-b sm:hover border-blue-600 md:hover:bg-transparent">
+                  <Link href="/mentorship" onClick={() => setNavbar(!navbar)}>
                     Mentorships
                   </Link>
                 </li>
 
-                <li className="pb-2 text-xl  text-blue-600 py-2 px-6 text-center  border-b-10 md:border-b-0  hover:bg-purple-600  md:hover:border-b border-blue-600 md:hover:bg-transparent">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                <li className="pb-2 text-xl  text-blue-600 py-2 px-6 text-center  border-b-10 md:border-b-0 md:hover:border-b border-blue-600 md:hover:bg-transparent">
+                  <Link href="/contact" onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>
@@ -122,8 +139,9 @@ function NavBar() {
           </div>
           
         </div>
+
       </nav>
-    </div>
+    </header>
   );
 }
 
