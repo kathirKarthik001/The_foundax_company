@@ -7,7 +7,7 @@ const Mentorshippage = () => {
       <header className={`${styles.imgHeader} h-32 md:h-64 bg-cover bg-no-repeat flex items-center justify-center`}>
         <h1 className="text-white text-4xl md:text-6xl font-bold">Students Hub</h1>
       </header>
-      <div className="container mx-auto px-4 py-8">
+      <div className=" mx-auto px-4 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
           <BlogCard
             title="Personalized One-on-One Sessions"
