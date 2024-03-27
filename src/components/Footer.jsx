@@ -17,9 +17,9 @@ const Footer = () => {
     <div className="md:bg-blue-400  md:py-[10px] w-full  h-fit flex justify-evenly items-start  pt-0 mt-0
     max-md:flex-col max-md:items-center text-white  cursor-pointer ">
       {/* First Section */}
-      <ul className="second-list max-md:text-start  w-[100%] bg-blue-400 text-center  ">
+      <ul className="second-list max-md:text-center  w-[100%] bg-blue-400 text-center">
 
-        <li className="first:text-2xl pb-2 w-[100%] first:text-blue-900  border-white " onClick={() => toggleDropdown(1)}>
+        <li className="first:text-2xl pb-2 w-[100%] first:text-blue-900  border-white text-center " onClick={() => toggleDropdown(1)}>
         Marketing 
         </li>
         <li className={`md:block  ${activeIndex === 1 ? 'block' : 'hidden'} `}>
