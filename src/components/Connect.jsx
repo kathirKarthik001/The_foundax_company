@@ -6,13 +6,6 @@ import { FaLinkedin, FaPhone, FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaInstagra
 const Connect = () => {
   return (
     <>
-            <div className="waves">
-            <div className="wave" id="wave1"></div>
-            <div className="wave" id="wave2"></div>
-            <div className="wave" id="wave3"></div>
-            <div className="wave" id="wave4"></div>
-            </div>
-
             <img src="./wave.png" alt="" className='  border-none w-full max-md:p-0 max-md:m-0 '/>
             <div className='w-full h-fit p-[20px] flex bg-[#0083CB] max-md:mt-0'>
                 <div className='w-full text-center flex flex-col items-center py-[10px]'>

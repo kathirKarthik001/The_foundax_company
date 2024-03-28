@@ -107,7 +107,8 @@ export default function Home() {
                 </div>
             </div>      
             {/* <img src="BS2.jpg" alt="" height="50%" width="50%">  */}
-        </div>
+          </div> 
+         
 
         {/* Studnets registration */}
 

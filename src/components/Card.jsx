@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BlogCard = ({ title, description, imageUrl, contactLink }) => {
     return (
-      <div className="blog-box w-full md:w-72 lg:w-80 xl:w-96 p-2 md:p-4 mb-6 ml-auto mr-auto"> {/* Updated width and reduced padding */}
+      <div className="blog-box w-full md:w-72 max-md:h-fit lg:w-80 xl:w-96 p-2 md:p-4 mb-6 md-max:ml-0 mr-auto"> {/* Updated width and reduced padding */}
         <div className="relative overflow-hidden rounded-lg border border-gray-300 shadow-md h-full">
           <div className="aspect-w-16 aspect-h-9">
             <Image
