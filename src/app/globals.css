@@ -544,6 +544,7 @@ h1{
     text-align: center;
     padding: 20px;
     margin: 10px;
+    border:0px
 
 }
 
@@ -1326,3 +1327,9 @@ form textarea{
     margin-right: 10px;
     width: 50px;
   }
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap')
+
+  h1{
+    font-family: "Nunito", sans-serif;
+  } */

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const BlogCard = ({ title, description, imageUrl, contactLink }) => {
     return (
@@ -15,7 +16,7 @@ const BlogCard = ({ title, description, imageUrl, contactLink }) => {
           <div className="p-4">
             <h2 className="text-lg font-semibold mb-2">{title}</h2>
             <p className="text-sm">{description}</p>
-            <a href={contactLink} className="text-blue-500 mt-2 block hover:underline">Contact</a>
+            <Link target="_blank"  href={contactLink} className="text-blue-500 mt-2 block hover:underline">Join now</Link>
           </div>
         </div>
       </div>

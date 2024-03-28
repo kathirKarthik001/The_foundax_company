@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Connect from "@/components/Connect";
@@ -7,7 +7,7 @@ import Link from "next/link";
 import { FaLinkedin, FaPhone, FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaInstagramSquare } from 'react-icons/fa';
 
 
-const inter = Inter({ subsets: ["latin"] });
+const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
   title: "The Foundax Company",
@@ -17,17 +17,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`h-fit w-full `}>
+      <body className={`h-fit w-full ${nunito .className} `}>
         <Navbar/>
         <div className="md:pt-[100px] max-sm:pt-[83px]">
             {children}
         </div>
           
-          <Link target='_blank' href=" https://chat.whatsapp.com/Lf6BBUwog7G0Pn435waOuk " 
+          {/* <Link target='_blank' href=" https://chat.whatsapp.com/Lf6BBUwog7G0Pn435waOuk " 
           className="float flex items-center p-3 justify-evenly max-md:left-3/2 max-md:text-sm"  >
                 <FaWhatsapp width={60} height={50} className="myfloat"/> 
                 <p className="max-md:text-sm "> Join community for free Mentorship </p>
-          </Link>
+          </Link> */}
+
+          {/* <Link target='_blank' href=" https://chat.whatsapp.com/Lf6BBUwog7G0Pn435waOuk " 
+          className="float flex items-center justify-center"  >
+                <FaWhatsapp width={100} height={100} className="myfloat"/> 
+             
+          </Link> */}
 
 
         <Connect/>

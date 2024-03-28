@@ -15,10 +15,10 @@ const Footer = () => {
   return (
     <>
    
-    
-    <div className="md:bg-[#0083CB]  max-md:mt-2  md:py-[10px] w-full  h-fit flex justify-evenly items-start  pt-0 mt-0
+     
+       {/* <div className="md:bg-[#0083CB]  max-md:mt-2  md:py-[10px] w-full  h-fit flex justify-evenly items-start  pt-0 mt-0
     max-md:flex-col max-md:items-center text-white  cursor-pointer ">
-      {/* First Section */}
+     
       <ul className="second-list max-md:text-center  w-[100%] bg-[#0083CB] text-center">
 
         <li className="first:text-2xl pb-2 w-[100%] md:first:text-blue-900 md:underline   border-white text-center " onClick={() => toggleDropdown(1)}>
@@ -35,7 +35,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      {/* Second Section */}
+      
       <ul className="second-list max-md:text-center w-[100%] bg-[#0083CB] text-center">
         <li className="first:text-2xl pb-2 md:first:text-blue-900  md:underline border-white max-md:border-t-2" onClick={() => toggleDropdown(2)}>
           Websites
@@ -48,7 +48,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      {/* Third Section */}
+      
       <ul className="third-list max-md:text-center w-[100%] bg-[#0083CB] text-center">
         <li className="first:text-2xl pb-2 md:first:text-blue-900 md:underline border-white  max-md:border-t-2" onClick={() => toggleDropdown(3)}>
            Designing
@@ -65,7 +65,7 @@ const Footer = () => {
       </ul>
  
 
-      {/* Fourth Section */}
+      
       <ul className="fourth-list max-md:text-center w-[100%] bg-[#0083CB] text-center">
         <li className="first:text-2xl pb-2 md:first:text-blue-900  md:underline border-white  max-md:border-t-2" onClick={() => toggleDropdown(4)}>
           Mentorship
@@ -77,25 +77,25 @@ const Footer = () => {
           <Link href="/mentorship">Guidance</Link>
         </li>
       </ul>
-    </div>
+       </div> */}
 
 
-   <div className='bg-white flex justify-between md:p-[15px] max-md:p-[10px] w-[100%] text-center'>
+        <div className='bg-[#ffffff]  text-[#0083CB] flex justify-between md:p-[15px] max-md:p-[10px] w-[100%] text-center'>
 
-    <p className='md:w-[300px] text-start '>
-    © 2023 - 2025 | All rights reserved by thefoundaxcompany
-    </p>
+          <p className=' w-full text-center  mt-1'>
+          © 2023 - 2025 | All rights reserved by thefoundaxcompany
+          </p>
 
 
-   <Image
-      src='/TFC .jpeg'
-      width={80}
-      height={30}
-      alt="logo"
-      className="focus:border-none active:border-none"
-    />
+        {/* <Image
+            src='/TFC .jpeg'
+            width={80}
+            height={30}
+            alt="logo"
+            className="focus:border-none active:border-none"
+          /> */}
 
-  </div>
+        </div>
     </>
     
   );

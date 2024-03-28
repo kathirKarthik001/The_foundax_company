@@ -8,8 +8,8 @@ export default function Home() {
 
     <div className="banner-card">
                   <img src={'/merge.png'} alt="hero image"  width="100%" height="725"/>
-                  <div className="banner-text">
-                        <h1>Let's get digital</h1>
+                  <div className="banner-text md:ml-[10px]">
+                        <h1 >Let's get digital</h1>
                          <br/>
                          <h3>Foster your future with <br/> Foundax</h3> 
                         <Link href="/about" className="underline">LEARN MORE</Link>
