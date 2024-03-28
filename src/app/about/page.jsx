@@ -1,9 +1,147 @@
 import Link from 'next/link'
 import React from 'react'
+import styles from'@/app/about/about.module.css'
+import { FaLinkedin, FaPhone, FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaInstagramSquare } from 'react-icons/fa';
 
 const Aboutpage = () => {
   return (
     <>
+
+        <div className={`${styles.content} h-fit my-0`}>
+                <div className={`${styles.about} md:p-[100px] max-md:p-[50px]`}>
+                    <h1 className="text-white text-center w-full text-4xl md:text-5xl font-bold"> ABOUT US </h1>
+                </div>
+        </div>
+
+
+        <div className={styles.specialized}>
+        <div className={styles.loream}>
+            <p>Welcome to The Foundax Company, a digital marketing and technology agency where we make your brand start unique from the crowd !</p> <br/>
+            <p>At Foundax, our formula is simple yet potent: Patience, Punctual , Perfect. We believe in understanding your needs patiently, delivering on promises punctually, and striving for perfection in every aspect of our work. It's not just a formula; it's our commitment to excellence.</p> <br/>
+            <p>Join us at Foundax and embark on your brand's digital journey to new heights.</p>
+        </div>
+        </div>
+
+
+        <div className={styles.team}>
+        <div className={styles.container}>
+
+            <div className={styles.header}>
+                <h1 >Our Team</h1>
+            </div>
+
+
+            <div className={`${styles.subcontainer} w-full text-white flex flex-wrap justify-center  `}>
+
+                
+                        <div className={`${styles.teams}`}>
+                            <img src="/m-1.png" alt="" height={100} />
+                            <div className={styles.name}>Hemakeerthika</div>
+                            <div className={styles.about}>CO-FOUNDER & COO</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'https://www.linkedin.com/in/hema-keerthika?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className={styles.teams}>
+                            <img src="/shyam.jpeg" alt=""/>
+                            <div className={styles.name}>Sri Shyamnath</div>
+                            <div className={styles.about}>CO-FOUNDER & COO</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'https://www.linkedin.com/in/srishyamnath?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className={styles.teams}>
+                            <img src="/Varun.jpeg" alt=""/>
+                            <div className={styles.name}>Varun Murthi</div>
+                            <div className={styles.about}>MANAGING DIRECTOR</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'https://www.linkedin.com/in/varun-murthi-s-5967b9225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className={styles.teams}>
+                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
+                            <div className={styles.name}>Hemakeerthika</div>
+                            <div className={styles.about}>CO-FOUNDER & COO</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'/'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+
+
+                        <div className={styles.teams}>
+                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
+                            <div className={styles.name}>Hemakeerthika</div>
+                            <div className={styles.about}>CO-FOUNDER & COO</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'/'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className={styles.teams}>
+                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
+                            <div className={styles.name}>Hemakeerthika</div>
+                            <div className={styles.about}>CO-FOUNDER & COO</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'/'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+                        
+                        <div className={styles.teams}>
+                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
+                            <div className={styles.name}>Hemakeerthika</div>
+                            <div className={styles.about}>CO-FOUNDER & COO</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'/'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className={styles.teams}>
+                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
+                            <div className={styles.name}>Hemakeerthika</div>
+                            <div className={styles.about}>CO-FOUNDER & COO</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link href={'/'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+
      {/* Blogs */}
 
      <section id="blog">

@@ -4,6 +4,134 @@
 
 
 
+/* About page */
+
+#content{
+  background-color: #0083cb;
+  padding: 100px;
+  /* background-image: url(/bg1.jpeg); */
+  background-size: cover;
+
+}
+
+#content .about h1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: Nunito;
+}
+
+#specialized{
+  padding: 30px 0;
+}
+
+.loream{
+  padding-left: 30px;
+}
+
+.loream h1{
+  color: #0083cb;
+  font-family: Nunito;
+}
+
+.loream p{
+  font-family: Quicksand;
+  font-size: 20px;
+}
+#team{
+  padding: 30px 0;
+
+}
+.container{
+  text-align: center;
+  /* background-color: #0083cb; */
+  align-items: center;
+  background: linear-gradient(180deg, #0083cb 0%, #76cfff 100%);
+}
+
+.header{
+  padding-top: 30px;
+  color: #fff;
+  font-size: 20px;
+  margin: auto;
+  line-height: 50px;
+}
+
+.sub-container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teams{
+  margin: 10px;
+  padding: 22px;
+  max-width: 30%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+
+.teams img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.name{
+  padding: 12px;
+  font-weight: bold;
+  font-family: Nunito;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.about{
+  margin: 20px 0;
+  color: #fff;
+  line-height: 25px;
+  font-family: Quicksand;
+}
+
+.social-links{
+  margin: 14px;
+}
+
+.social-links a{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  transition: .4s;
+}
+
+.social-links a i:hover{
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 600px){
+  .teams{
+      max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 440px){
+  .loream h1{
+      font-size: 24px;
+  }
+  .loream p{
+      font-size: 18px;
+  }
+}
+
+
+
 
 
 /* services/Tech/ Tech-Section */

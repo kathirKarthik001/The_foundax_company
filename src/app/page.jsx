@@ -137,7 +137,7 @@ export default function Home() {
     <div className="about">
         <h1 className="sub-title">About Foundax</h1>
         <div className="content">
-            <div className="left">
+            <div className="left text-black">
                 <p>Struggling to make your mark in the digital realm? Look no further than The Foundax Company – a premier digital marketing and technology agency. With a commitment to <span>patience, punctuality,</span> and <span>perfection,</span> we deliver clients an impeccable digital presence at an affordable cost.</p> <br/>
                 <p1>The beginning of your brand's digital story</p1> <br/> <br/>
                 <Link href={'/about'}>

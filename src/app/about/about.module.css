@@ -1,194 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-
-/* html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
-.logo{
-    font-size: 35px;
-    letter-spacing: 1px;
-    padding-left: 5%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
-.logo img{
-    width: 120px;
-}
-
-/* 
-nav ul li ul.dropdown li{
-    display: block;
-}
-
-nav ul li ul.dropdown{
-    width: 20%;
-    background: #fff;
-    position: absolute;
-    z-index: 999;
-    display: none;
-}nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-}
-
-nav ul li a{
-    display: block;
-    color: #0083cb;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: "Montserrat","sans-serif";
-    position: relative;
-} */
-
-/* 
-nav ul li:hover ul.dropdown{
-    display: block;
-}
-
-nav ul li a:after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #0083cb;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5%;
-}
-
-nav ul li a:hover::after{
-    width: 100%;
-}
-
-nav .fa-solid{
-    display: none;
-    overflow: hidden;
-} */
-
-.banner-card{
-    position: relative;
-}
-
-
-.banner-card img{
-    max-width: 100%;
-    height: auto;
-}
-
-.banner-text{
-    position: absolute;
-    top: 25%;
-    color: #fff;
-    padding: 20px;
-    padding: 0 5%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.banner-text h1{
-    color: #fff;
-    font-family: Nunito;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-.banner-text h3{
-    color: #fff;
-    font-family: Quicksand;
-    font-weight: 200;
-    font-size: 35px;
-}
-
-.banner-text a{
-    color: #fff;
-    font-size: 25px;
-    font-family: Montserrat;
-
-}
-@media screen and (max-width: 768px) {
-    .banner-text h1 {
-        font-size: 6vw; /* Adjust font size for smaller screens */
-    }
-
-    .banner-text h3 {
-        font-size: 4vw; /* Adjust font size for smaller screens */
-    }
-
-    .banner-text a {
-        font-size: 3vw; /* Adjust font size for smaller screens */
-    }
-}
-/* 
-@media only screen and (max-width: 600px){
-    nav .fa-solid{
-        display: block;
-        font-size: 25px;
-    }
-    nav ul{
-        background: #0083cb;
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-    }
-    nav ul{
-        background: #fff;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 2.5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fa-solid{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    } */
-    /* .fa-solid{
-        padding-right: 7%;
-        color: #0083cb;
-    } */
-    /* nav .fa-solid{
-        padding-right: 30px;
-        color: #0083cb;
-    }
-} */
-
-
-#content{
+.content{
     background-color: #0083cb;
-    padding: 100px;
     background-image: url('/bg1.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
 
 }
 
-#content .about h1{
+.content .about h1{
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -196,7 +15,7 @@ nav .fa-solid{
     font-family: Nunito;
 }
 
-#specialized{
+.specialized{
     padding: 30px 0;
 }
 
@@ -213,7 +32,7 @@ nav .fa-solid{
     font-family: Quicksand;
     font-size: 20px;
 }
-#team{
+.team{
     padding: 30px 0;
 
 }
@@ -232,7 +51,7 @@ nav .fa-solid{
     line-height: 50px;
 }
 
-.sub-container{
+.subcontainer{
     max-width: 1200px;
     margin: auto;
     padding: 30px 0;
@@ -256,6 +75,7 @@ nav .fa-solid{
     border-radius: 50%;
     overflow: hidden;
     margin: auto;
+    
 }
 
 .name{
@@ -268,24 +88,24 @@ nav .fa-solid{
 }
 
 .about{
-    margin: 20px 0;
+    /* margin: 20px 0; */
     color: #fff;
     line-height: 25px;
     font-family: Quicksand;
 }
 
-.social-links{
+.sociallinks{
     margin: 14px;
 }
 
-.social-links a{
+.sociallinks a{
     display: inline-block;
     height: 30px;
     width: 30px;
     transition: .4s;
 }
 
-.social-links a i:hover{
+.sociallinks a i:hover{
     transform: scale(1.5);
 }
 
@@ -304,243 +124,5 @@ nav .fa-solid{
     }
 }
 
-#blog{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 40px;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-}
-
-.blog-heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.blog-heading h1{
-    color: #0083cb;
-    font-weight: bold;
-    font-family: Nunito;
-    text-align: center;
-    font-size: 32px;
-}
-
-.blog-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0px;
-    flex-wrap: wrap;
-}
-
-.blog-box{
-    width: 310px;
-    background-color: #fff;
-    border: 1px solid #ececec;
-    margin: 20px;
-}
-
-.blog-img{
-    width: 100%;
-    height: auto;
-}
-
-.blog-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.blog-text{
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-}
-
-.blog-text span{
-    color: #0083cb;
-    font-family: Nunito;
-}
-
-.blog-text p{
-    color: #000000;
-    font-size: 0.9rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 20px 0px;
-    font-family: Nunito;
-}
-
-.blog-text a{
-    color: #0083cb;
-    font-family: Quicksand;
-}
-
-.blog-text a:hover{
-    color: #000000;
-    transition: all ease 0.3s;
-}
-
-@media(max-width:1250px){
-    .blog-box{
-        width: 300px;
-    }
-}
-
-@media(max-width:1100px){
-    .blog-box{
-        width: 70%;
-    }
-}
-
-@media(max-width:550px){
-    .blog-box{
-        margin: 20px 10px;
-        width: 100%;
-    }
-    #blog{
-        padding: 20px;
-    }
-}
-
-/* 
-footer{
-    position: relative;
-    width: 100%;
-    background: #0083cb;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-footer .social_icon,
-footer .menu3{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;
-}
-
-footer .social_icon li,
-footer .menu3 li{
-    list-style: none;
-}
-
-footer .social_icon li a{
-    font-size: 2rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-}
-
-footer .social_icon li a:hover{
-    transform: translateY(-10px);
-}
-
-footer .menu3 li a{
-    font-size: 1.2rem;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-    text-decoration: none;
-    opacity: 0.75;
-}
-
-footer .menu3 li a:hover{
-    opacity: 1;
-}
-
-footer p{
-    color: #fff;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 1.1em;
-    font-family: Nunito;
-}
-
-footer .wave{
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url(wave.png);
-    background-size: 1000px 100px;
-}
-
-footer .wave#wave1{
-    z-index: 1000;
-    opacity: 1;
-    bottom: 0;
-    animation: animateWave 4s linear infinite;
-}
-
-footer .wave#wave2{
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animateWave_02 4s linear infinite;
-}
-
-footer .wave#wave3{
-    z-index: 1000;
-    opacity: 0.2;
-    bottom: 15px;
-    animation: animateWave 3s linear infinite;
-}
-
-footer .wave#wave4{
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animateWave_02 3s linear infinite;
-}
 
 
-@keyframes animateWave{
-    0%{
-        background-position-x: 1000px;
-    }
-    100%{
-        background-position-x: 0px;
-    }
-}
-
-@keyframes animateWave{
-    0%{
-        background-position-x: 1000px;
-    }
-    100%{
-        background-position-x: 0px;
-    }
-}
-
-
-@keyframes animateWave_02{
-    0%{
-        background-position-x: 1000px;
-    }
-    100%{
-        background-position-x: 0px;
-    }
-}
-
-
-.social-links{
-    color: #0083cb; box-sizing: border-box; background-color: #fff; padding: 5px 5px;
-} */
