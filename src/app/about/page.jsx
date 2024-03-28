@@ -100,12 +100,12 @@ const Aboutpage = () => {
                         </div>
                         
                         <div className={styles.teams}>
-                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
-                            <div className={styles.name}>XXXXXXXXXX</div>
+                            <img src="/m-6.png" alt=""/>
+                            <div className={styles.name}>Dharanendra V</div>
                             <div className={styles.about}> CMO </div>
 
                             <div className={styles.sociallinks}>
-                                <Link  target="_blank" href={'/'} >
+                                <Link  target="_blank" href={'https://www.linkedin.com/in/dharanendra-v/'} >
                                             <FaLinkedin style={{width:'30px',height:'30px'}}/>
                                 </Link>
                             </div>

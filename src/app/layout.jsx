@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
             {children}
         </div>
           
-          <Link target='_blank' href="/" 
+          <Link target='_blank' href=" https://chat.whatsapp.com/Lf6BBUwog7G0Pn435waOuk " 
           className="float flex items-center p-3 justify-evenly max-md:left-3/2 max-md:text-sm"  >
                 <FaWhatsapp width={60} height={50} className="myfloat"/> 
                 <p className="max-md:text-sm "> Join community for free Mentorship </p>

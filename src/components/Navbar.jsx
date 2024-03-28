@@ -128,7 +128,7 @@ function NavBar() {
                 </li>
 
                 <li className="pb-2 text-xl  text-blue-600 py-2 px-6 text-center  border-b-10 md:border-b-0 md:hover:border-b border-blue-600 md:hover:bg-transparent">
-                  <Link href="/contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfQ1Uh4SvJJvIYZTWRW0oW9LIodaZ3fGJRjylgN61SZvM5TYQ/viewform?usp=sf_link " onClick={() => setNavbar(!navbar)}>
                     Contact
                   </Link>
                 </li>
