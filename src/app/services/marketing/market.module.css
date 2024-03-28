@@ -1,0 +1,181 @@
+
+.slicer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+  }
+  
+  .slice {
+    border-radius: 2px;
+    background: #0083cb;
+    text-align: center;
+    gap: 50px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .slice h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px 0;
+  }
+  
+  .slice p {
+    color: #fff;
+    font-size: 20px;
+    
+    line-height: 1.8;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .container {
+    padding: 15px 3%;
+    padding-bottom: 80px;
+    padding: 30px 0;
+  }
+  
+  .heading {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #0083cb;
+    font-size: 35px;
+    transition: 2s linear;
+    gap: 50px;
+  }
+  
+  .boxContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+    padding: 25px; 
+  }
+  
+  .box {
+    border-color: #0083cb;
+    border-style: solid;
+    border-radius: 2px;
+    text-align: center;
+    padding: 15px 20px;
+    margin-left: 10px;
+    gap: 50px;
+    border: 2px solid #0083cb;
+    transition: all 0.3s ease; 
+  }
+  
+  .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+    transform: scale(1.03); /* Scale up the box on hover */
+  }
+  
+  .box h3 {
+    color: #0083cb;
+    font-size: 19px;
+    text-align: center;
+  }
+  
+  .box p {
+    color: black;
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  .bn {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button horizontally and vertically */
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #0083cb;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .gradient {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    background: linear-gradient(180deg, #0083cb 0%, rgba(109, 195, 243, 0.782222) 67%, rgba(100, 199, 252, 0.609) 75.5%, rgba(117, 203, 250, 0.58) 81%, rgba(15, 163, 243, 0.58) 96.24%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay h2 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: 4px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .overlay h4 {
+      font-size: 15px;
+    }
+  
+    .bn {
+      font-size: 10px;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .gradient {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .overlay h4 {
+      font-size: 0.8rem;
+    }
+  
+    .bn {
+      font-size: 10px;
+      bottom: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .overlay h4 {
+      font-size: 12px;
+    }
+  
+    .bn {
+      font-size: 7px;
+      bottom: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .slicer .slice {
+      padding: 60px;
+    }
+  
+    .container .boxContainer .box {
+      padding: 15px;
+    }
+  }
+  

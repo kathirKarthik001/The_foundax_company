@@ -16,12 +16,12 @@ const Footer = () => {
     <>
    
     
-    <div className="md:bg-blue-400  md:py-[10px] w-full  h-fit flex justify-evenly items-start  pt-0 mt-0
+    <div className="md:bg-[#0083CB]  max-md:mt-2  md:py-[10px] w-full  h-fit flex justify-evenly items-start  pt-0 mt-0
     max-md:flex-col max-md:items-center text-white  cursor-pointer ">
       {/* First Section */}
-      <ul className="second-list max-md:text-center  w-[100%] bg-blue-400 text-center">
+      <ul className="second-list max-md:text-center  w-[100%] bg-[#0083CB] text-center">
 
-        <li className="first:text-2xl pb-2 w-[100%] first:text-blue-900  border-white text-center " onClick={() => toggleDropdown(1)}>
+        <li className="first:text-2xl pb-2 w-[100%] md:first:text-blue-900 md:underline   border-white text-center " onClick={() => toggleDropdown(1)}>
         Marketing 
         </li>
         <li className={`md:block  ${activeIndex === 1 ? 'block' : 'hidden'} `}>
@@ -36,8 +36,8 @@ const Footer = () => {
       </ul>
 
       {/* Second Section */}
-      <ul className="second-list max-md:text-center w-[100%] bg-blue-400 text-center">
-        <li className="first:text-2xl pb-2 first:text-blue-900  border-white max-md:border-t-2" onClick={() => toggleDropdown(2)}>
+      <ul className="second-list max-md:text-center w-[100%] bg-[#0083CB] text-center">
+        <li className="first:text-2xl pb-2 md:first:text-blue-900  md:underline border-white max-md:border-t-2" onClick={() => toggleDropdown(2)}>
           Websites
         </li>
         <li className={`md:block ${activeIndex === 2 ? 'block' : 'hidden'}`}>
@@ -49,8 +49,8 @@ const Footer = () => {
       </ul>
 
       {/* Third Section */}
-      <ul className="third-list max-md:text-center w-[100%] bg-blue-400 text-center">
-        <li className="first:text-2xl pb-2 first:text-blue-900  border-white  max-md:border-t-2" onClick={() => toggleDropdown(3)}>
+      <ul className="third-list max-md:text-center w-[100%] bg-[#0083CB] text-center">
+        <li className="first:text-2xl pb-2 md:first:text-blue-900 md:underline border-white  max-md:border-t-2" onClick={() => toggleDropdown(3)}>
            Designing
         </li>
         <li className={`md:block ${activeIndex === 3 ? 'block' : 'hidden'}`}>
@@ -66,8 +66,8 @@ const Footer = () => {
  
 
       {/* Fourth Section */}
-      <ul className="fourth-list max-md:text-center w-[100%] bg-blue-400 text-center">
-        <li className="first:text-2xl pb-2 first:text-blue-900  border-white  max-md:border-t-2" onClick={() => toggleDropdown(4)}>
+      <ul className="fourth-list max-md:text-center w-[100%] bg-[#0083CB] text-center">
+        <li className="first:text-2xl pb-2 md:first:text-blue-900  md:underline border-white  max-md:border-t-2" onClick={() => toggleDropdown(4)}>
           Mentorship
         </li>
         <li className={`md:block ${activeIndex === 4 ? 'block' : 'hidden'} `}>
@@ -80,7 +80,7 @@ const Footer = () => {
     </div>
 
 
-   <div className='bg-white flex justify-between md:p-[20px] max-md:p-[10px] w-[100%] text-center'>
+   <div className='bg-white flex justify-between md:p-[15px] max-md:p-[10px] w-[100%] text-center'>
 
     <p className='md:w-[300px] text-start '>
     © 2023 - 2025 | All rights reserved by thefoundaxcompany

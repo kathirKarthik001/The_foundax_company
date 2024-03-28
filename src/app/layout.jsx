@@ -3,6 +3,9 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
+import Link from "next/link";
+import { FaLinkedin, FaPhone, FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaInstagramSquare } from 'react-icons/fa';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +22,14 @@ export default function RootLayout({ children }) {
         <div className="md:pt-[100px] max-sm:pt-[83px]">
             {children}
         </div>
+          
+          <Link target='_blank' href="/" 
+          className="float flex items-center p-3 justify-evenly max-md:left-3/2 max-md:text-sm"  >
+                <FaWhatsapp width={60} height={50} className="myfloat"/> 
+                <p className="max-md:text-sm "> Join community for free Mentorship </p>
+          </Link>
+
+
         <Connect/>
         <Footer/>
        </body>

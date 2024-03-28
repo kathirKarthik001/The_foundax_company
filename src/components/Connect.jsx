@@ -16,7 +16,7 @@ const Connect = () => {
                     </h1>
                     <p className='text-white'>We look forward to hearing from you!</p>
                     <div className='flex items-center space-x-[20px] text-white pt-6'>
-                            <Link href={'/'} >
+                            <Link target='_blank' href={'https://www.linkedin.com/company/the-foundax-company/'} >
                                 <FaLinkedin style={{width:'30px',height:'30px'}}/>
                             </Link>
 

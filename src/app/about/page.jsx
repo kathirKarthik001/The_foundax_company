@@ -31,16 +31,16 @@ const Aboutpage = () => {
             </div>
 
 
-            <div className={`${styles.subcontainer} w-full text-white flex flex-wrap justify-center  `}>
+            <div className={` columns-md   ${styles.subcontainer} w-full text-white flex flex-wrap justify-center  `}>
 
                 
-                        <div className={`${styles.teams}`}>
-                            <img src="/m-1.png" alt="" height={100} />
+                        <div className={` ${styles.teams}`}>
+                            <img src="/m-1.png" alt="" width={30} />
                             <div className={styles.name}>Hemakeerthika</div>
                             <div className={styles.about}>CO-FOUNDER & COO</div>
 
                             <div className={styles.sociallinks}>
-                                <Link href={'https://www.linkedin.com/in/hema-keerthika?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
+                                <Link target="_blank" href={'https://www.linkedin.com/in/hema-keerthika?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
                                             <FaLinkedin style={{width:'30px',height:'30px'}}/>
                                 </Link>
                             </div>
@@ -52,7 +52,7 @@ const Aboutpage = () => {
                             <div className={styles.about}>CO-FOUNDER & COO</div>
 
                             <div className={styles.sociallinks}>
-                                <Link href={'https://www.linkedin.com/in/srishyamnath?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
+                                <Link target="_blank" href={'https://www.linkedin.com/in/srishyamnath?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
                                             <FaLinkedin style={{width:'30px',height:'30px'}}/>
                                 </Link>
                             </div>
@@ -64,45 +64,36 @@ const Aboutpage = () => {
                             <div className={styles.about}>MANAGING DIRECTOR</div>
 
                             <div className={styles.sociallinks}>
-                                <Link href={'https://www.linkedin.com/in/varun-murthi-s-5967b9225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
+                                <Link  target="_blank" href={'https://www.linkedin.com/in/varun-murthi-s-5967b9225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} >
+                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
+                                </Link>
+                            </div>
+                        </div>
+
+                       
+
+            </div>
+
+            <div className={` columns-md   ${styles.subcontainer} w-full  text-white flex h-fit  py-0flex-wrap justify-center  `}>
+            <div className={styles.teams}>
+                            <img src="/m-4.png" alt=""height={200} width={40} />
+                            <div className={styles.name}>Kathir Karthik</div>
+                            <div className={styles.about}>Web Developer</div>
+
+                            <div className={styles.sociallinks}>
+                                <Link target="_blank" href={'https://www.linkedin.com/in/kathir-karthik-6b9b03257/'} >
                                             <FaLinkedin style={{width:'30px',height:'30px'}}/>
                                 </Link>
                             </div>
                         </div>
 
                         <div className={styles.teams}>
-                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
-                            <div className={styles.name}>Hemakeerthika</div>
-                            <div className={styles.about}>CO-FOUNDER & COO</div>
+                            <img src="/m-5.png" alt=""/>
+                            <div className={styles.name}>Mouniesh</div>
+                            <div className={styles.about}>Web Developer</div>
 
                             <div className={styles.sociallinks}>
-                                <Link href={'/'} >
-                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
-                                </Link>
-                            </div>
-                        </div>
-
-
-
-                        <div className={styles.teams}>
-                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
-                            <div className={styles.name}>Hemakeerthika</div>
-                            <div className={styles.about}>CO-FOUNDER & COO</div>
-
-                            <div className={styles.sociallinks}>
-                                <Link href={'/'} >
-                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className={styles.teams}>
-                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
-                            <div className={styles.name}>Hemakeerthika</div>
-                            <div className={styles.about}>CO-FOUNDER & COO</div>
-
-                            <div className={styles.sociallinks}>
-                                <Link href={'/'} >
+                                <Link target="_blank" href={'https://www.linkedin.com/in/mouniesh-vijayakumar-2447a2256/'} >
                                             <FaLinkedin style={{width:'30px',height:'30px'}}/>
                                 </Link>
                             </div>
@@ -110,29 +101,15 @@ const Aboutpage = () => {
                         
                         <div className={styles.teams}>
                             <img src="IMG-20240311-WA0036.jpg" alt=""/>
-                            <div className={styles.name}>Hemakeerthika</div>
-                            <div className={styles.about}>CO-FOUNDER & COO</div>
+                            <div className={styles.name}>XXXXXXXXXX</div>
+                            <div className={styles.about}> CMO </div>
 
                             <div className={styles.sociallinks}>
-                                <Link href={'/'} >
+                                <Link  target="_blank" href={'/'} >
                                             <FaLinkedin style={{width:'30px',height:'30px'}}/>
                                 </Link>
                             </div>
                         </div>
-
-                        <div className={styles.teams}>
-                            <img src="IMG-20240311-WA0036.jpg" alt=""/>
-                            <div className={styles.name}>Hemakeerthika</div>
-                            <div className={styles.about}>CO-FOUNDER & COO</div>
-
-                            <div className={styles.sociallinks}>
-                                <Link href={'/'} >
-                                            <FaLinkedin style={{width:'30px',height:'30px'}}/>
-                                </Link>
-                            </div>
-                        </div>
-
-
             </div>
 
             
@@ -145,16 +122,16 @@ const Aboutpage = () => {
      {/* Blogs */}
 
      <section id="blog">
-            <div class="blog-heading">
+            <div className="blog-heading">
                 <h1>Our Blogs</h1>
             </div>
-            <div class="blog-container">
+            <div className="blog-container">
     
-                <div class="blog-box">
-                    <div class="blog-img">
+                <div className="blog-box">
+                    <div className="blog-img">
                         <img src="/B3.jpeg" alt=""/>
                     </div>
-                    <div class="blog-text">
+                    <div className="blog-text">
                         <span>January 02, 2023</span>
                         <p>At KPRIET, Sri Shyamnath RK, our Co-founder & CEO, led a session on "Creating Your personal Brand on LinkedIn" shaping aspiring professionals' career paths.</p>
                         <Link href="https://www.linkedin.com/posts/activity-7016420086626365440-qtbU?utm_source=share&utm_medium=member_android">Read more</Link>

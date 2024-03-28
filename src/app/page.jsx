@@ -43,20 +43,26 @@ export default function Home() {
 
                 <p>We Focus on making the best in all sectors</p>
 
-                <div class="row">
+                <div className="row">
 
-                    <div className="box">
-                        <Link href="/dm.html"><img src="serv11.jpg" alt="" /></Link><br/><br/>
+
+                    <div className="box max-md:h-fit md:h-fit" >
+                        <Link href="/services/designing">
+                            <img src="serv11.jpg" alt=""   />
+                            </Link>
+                            <br/>
+                            
                         <h3>Digital Marketing</h3>
                    </div>
 
-                   <div className="box">
-                        <Link href="/tec.html"><img src="serv22.jpg" alt=""/></Link><br/><br/>
+
+                   <div className="box max-md:h-fit md:h-fit">
+                        <Link href="/services/tech"><img src="serv22.jpg" alt=""/></Link><br/>
                         <h3>Technology</h3>
                     </div>
 
-                    <div className="box">
-                        <Link href="/des.html"><img src="serv33.jpg" alt=""/></Link><br/><br/>
+                    <div className="box max-md:h-fit md:h-fit">
+                        <Link target="_blank" href="/services/marketing"><img src="serv33.jpg" alt=""/></Link><br/>
                         <h3>Designing</h3>
                     </div>
 
@@ -68,10 +74,10 @@ export default function Home() {
         {/* Clients */}
 
         <div id="Clients">
-        <h1 class="sub-title">Our Trusted Brands</h1> <br/>
-        <div class="logos">
+        <h1 className="sub-title">Our Trusted Brands</h1> <br/>
+        <div className="logos">
       
-            <div class="logos-slide">
+            <div className="logos-slide">
                 <img src="/C1.png" />
               <img src="/C2.png" />
               <img src="/C3.jpg" />
@@ -115,19 +121,19 @@ export default function Home() {
     <div id="Clients2">
         <div className="logos2">
             <div className="logos-slide2">
-              <a href="Mentorship.html"><p>Free Opportunity for Students! Click here </p></a>
+              <Link  href="/mentorship"><p>Free Opportunity for Students! Click here </p></Link>
             </div>
       
             <div className="logos-slide2">
-                <a href="Mentorship.html"><p>Free Opportunity for Students! Click here </p></a>
+                <Link href="/mentorship"><p>Free Opportunity for Students! Click here </p></Link>
             </div>
 
             <div className="logos-slide2">
-                <a href="Mentorship.html"><p>Free Opportunity for Students! Click here </p></a>
+                <Link href="/mentorship"><p>Free Opportunity for Students! Click here </p></Link>
             </div>
 
             <div className="logos-slide2">
-                <a href="Mentorship.html"><p>Free Opportunity for Students! Click here </p></a>
+                <Link href="/mentorship"><p>Free Opportunity for Students! Click here </p></Link>
             </div>
           </div>
       </div>
@@ -140,7 +146,7 @@ export default function Home() {
             <div className="left text-black">
                 <p>Struggling to make your mark in the digital realm? Look no further than The Foundax Company – a premier digital marketing and technology agency. With a commitment to <span>patience, punctuality,</span> and <span>perfection,</span> we deliver clients an impeccable digital presence at an affordable cost.</p> <br/>
                 <p1>The beginning of your brand's digital story</p1> <br/> <br/>
-                <Link href={'/about'}>
+                <Link  href={'/about'}>
                   <button className="btn">Learn more</button>
                 </Link>
 
@@ -156,19 +162,19 @@ export default function Home() {
 
     
     <section id="blog">
-            <div class="blog-heading">
+            <div className="blog-heading">
                 <h1>Our Blogs</h1>
             </div>
-            <div class="blog-container">
+            <div className="blog-container">
     
-                <div class="blog-box">
-                    <div class="blog-img">
+                <div className="blog-box">
+                    <div className="blog-img">
                         <img src="/B3.jpeg" alt=""/>
                     </div>
-                    <div class="blog-text">
+                    <div className="blog-text">
                         <span>January 02, 2023</span>
                         <p>At KPRIET, Sri Shyamnath RK, our Co-founder & CEO, led a session on "Creating Your personal Brand on LinkedIn" shaping aspiring professionals' career paths.</p>
-                        <Link href="https://www.linkedin.com/posts/activity-7016420086626365440-qtbU?utm_source=share&utm_medium=member_android">Read more</Link>
+                        <Link target="_blank" href="https://www.linkedin.com/posts/activity-7016420086626365440-qtbU?utm_source=share&utm_medium=member_android">Read more</Link>
                     </div>
                 </div>
 
@@ -181,7 +187,7 @@ export default function Home() {
                     <div className="blog-text">
                         <span>July 07, 2023</span>
                         <p>The Foundax Company and Looptech organized a hands-on Arduino training at The Ideal Mount Litera Zee Senior Secondary Coimbatore School.</p>
-                        <Link href="https://www.instagram.com/p/C2wYIxFSqws/?igsh=MXVyZzNnbzIyZngzdA==">Read more</Link>
+                        <Link target="_blank" href="https://www.instagram.com/p/C2wYIxFSqws/?igsh=MXVyZzNnbzIyZngzdA==">Read more</Link>
                     </div>
                 </div>
     
@@ -192,7 +198,7 @@ export default function Home() {
                     <div className="blog-text">
                         <span>August 24 & 25, 2023</span>
                         <p>The Foundax Company organized their second two-day workshop at Peruntholuvu Government School, Tiruppur.</p>
-                        <Link href="https://www.linkedin.com/posts/the-foundax-company_ignitingminds-techworkshop-studentinnovation-activity-7101515885135204352-pq7G?utm_source=share&utm_medium=member_android">Read more</Link>
+                        <Link target="_blank" href="https://www.linkedin.com/posts/the-foundax-company_ignitingminds-techworkshop-studentinnovation-activity-7101515885135204352-pq7G?utm_source=share&utm_medium=member_android">Read more</Link>
                     </div>
                 </div>
                

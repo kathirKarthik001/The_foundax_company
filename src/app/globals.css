@@ -548,7 +548,7 @@ h1{
 }
 
 .box img{
-    padding-top: 20px;
+    padding-top: 0px;
     width: 200px;
 }
 
@@ -1296,3 +1296,33 @@ form textarea{
     }
   }
 
+
+
+
+
+
+
+
+
+
+
+
+  .float{
+    position:fixed;
+    width:fit-content;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:30px;
+    text-align:center;
+    font-size:20px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .myfloat{
+    margin-right: 10px;
+    width: 50px;
+  }
