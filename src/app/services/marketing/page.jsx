@@ -6,9 +6,9 @@ const MarketingPage = () => {
     <section>
       <div className={styles.slicer}>
   
-        <div className={`w-full max-md:text-[12px] md:p-[40px]  ${styles.slice}`}>
-          <h4 className=' max-md:text-[15px]  '> The seed for your brand's digital presence</h4>
-          <p>In today's competitive world of digital marketing, we make your brand last in the minds of customers forever.</p>
+        <div className={`w-full max-md:text-[10px] md:p-[100px]   ${styles.slice}`}>
+          <h4 className=' max-md:text-[30px] md:text-4xl  '> The seed for your brand's digital presence</h4>
+          <p  className=' max-md:text-[17px] text-justify md:text-[20px] ' >In today's competitive world of digital marketing, we make your brand last in the minds of customers forever.</p>
         </div>
       </div>
   

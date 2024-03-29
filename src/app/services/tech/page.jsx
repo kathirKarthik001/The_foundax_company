@@ -3,7 +3,7 @@ import styles from './webTech.module.css';
 const WebTechPage = () => {
   return (
     <>
-      <section>
+      <section className='mt-0 '> 
         <div className={styles.slicer}>
           <div className={styles.slice}>
             <h4> A Dream come true moment for your brand </h4>

@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`h-fit w-full ${nunito .className} `}>
+      <body className={`h-fit w-full ${nunito.className} `}>
         <Navbar/>
         <div className="md:pt-[100px] max-sm:pt-[83px]">
             {children}

@@ -16,7 +16,7 @@
   
   .slice h4 {
     color: #fff;
-    font-size: 30px;
+    /* font-size: 20px; */
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     padding: 10px 0;
@@ -24,7 +24,7 @@
   
   .slice p {
     color: #fff;
-    font-size: 20px;
+    /* font-size: 20px; */
     
     line-height: 1.8;
     text-align: center;
