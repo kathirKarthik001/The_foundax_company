@@ -103,7 +103,7 @@ export default function Home() {
         {/* Partners */}
 
         <div className="partner" >
-          <h1 className="sub-title" >Our Partners</h1> <br/><br/>
+          <h1 className="sub-title font-bold #0083CB" >Our Partners</h1> <br/><br/>
             <div className="row3">
                 <div className="box3">
                     <img src="blue.jpg" alt=""/>

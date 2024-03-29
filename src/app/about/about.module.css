@@ -12,7 +12,7 @@
     justify-content: center;
     text-align: center;
     color: white;
-    font-family: Nunito;
+    /* font-family: Nunito; */
 }
 
 .specialized{
@@ -25,11 +25,11 @@
 
 .loream h1{
     color: #0083cb;
-    font-family: Nunito;
+    /* font-family: Nunito; */
 }
 
 .loream p{
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
     font-size: 20px;
 }
 .team{
@@ -81,7 +81,7 @@
 .name{
     padding: 12px;
     font-weight: bold;
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 20px;
     text-transform: uppercase;
     color: #fff;
@@ -91,7 +91,7 @@
     /* margin: 20px 0; */
     color: #fff;
     line-height: 25px;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
 }
 
 .sociallinks{

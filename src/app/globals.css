@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+
+
+
+
 /* About page */
 
 #content{
@@ -18,7 +22,7 @@
   justify-content: center;
   text-align: center;
   color: white;
-  font-family: Nunito;
+  /* font-family: Nunito; */
 }
 
 #specialized{
@@ -31,11 +35,11 @@
 
 .loream h1{
   color: #0083cb;
-  font-family: Nunito;
+  /* font-family: Nunito; */
 }
 
 .loream p{
-  font-family: Quicksand;
+  /* font-family: Quicksand; */
   font-size: 20px;
 }
 #team{
@@ -86,7 +90,7 @@
 .name{
   padding: 12px;
   font-weight: bold;
-  font-family: Nunito;
+  /* font-family: Nunito; */
   font-size: 20px;
   text-transform: uppercase;
   color: #fff;
@@ -96,7 +100,7 @@
   margin: 20px 0;
   color: #fff;
   line-height: 25px;
-  font-family: Quicksand;
+  /* font-family: Quicksand; */
 }
 
 .social-links{
@@ -135,7 +139,7 @@
 
 /* services/Tech/ Tech-Section */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&family=Nunito:wght@200;300;400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
 
 * {
   margin: 0;
@@ -145,7 +149,7 @@
 
 body {
   line-height: 1.5;
-  font-family: 'Montserrat', 'Nunito', 'Quicksand', 'Roboto', sans-serif;
+  /* font-family: 'Montserrat', 'Nunito', 'Quicksand', 'Roboto', sans-serif; */
   font-weight: 400;
 }
 
@@ -177,7 +181,7 @@ a {
   background: #0083cb;
   text-align: center;
   padding: 100px 100px;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: bolder;
 }
 
@@ -225,7 +229,7 @@ a {
   padding: 30px 0;
 }
 .heading{
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: bolder;
 }
 .container .heading {
@@ -256,7 +260,7 @@ a {
   border: 2px solid #0083cb;
   padding: 30px;
   height: 16em;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: bolder;
 }
 
@@ -317,7 +321,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: bolder;
 }
 
@@ -371,8 +375,7 @@ a {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 
 /* Home */
 
@@ -380,7 +383,7 @@ a {
 
 .banner-card{
     position: relative;
-    font-family: "Nunito", sans-serif;
+    /* font-family: "Nunito", sans-serif; */
 }
 
 
@@ -402,14 +405,14 @@ a {
 
 .banner-text h1{
     color: #fff;
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-weight: bold;
     font-size: 50px;
 }
 
 .banner-text h3{
     color: #fff;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
     font-weight: 200;
     font-size: 35px;
 }
@@ -417,7 +420,7 @@ a {
 .banner-text a{
     color: #fff;
     font-size: 25px;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
 
 }
 @media screen and (max-width: 768px) {
@@ -467,7 +470,7 @@ a {
     color: #0083cb; 
     text-align: center; 
     font-weight: bold; 
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 25px;
 }
 #feature{
@@ -476,12 +479,15 @@ a {
 
 .box1{
     color: #000000; 
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-weight: bold; 
     font-size: 22px;
 }
 .box1 h3{
-    color: #000000; font-family: Nunito;font-weight: bold;font-size: 22px;
+    color: #000000; 
+    /* font-family: Nunito; */
+    font-weight: bold;
+    font-size: 22px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -510,7 +516,7 @@ a {
     color: #fff;
     text-align: center;
     font-weight: bold;
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 27px;
 }
 
@@ -528,7 +534,7 @@ h1{
     font-size: 20px;
     text-align: center;
     word-spacing: 5px;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
 }
 
 .row{
@@ -555,7 +561,7 @@ h1{
 
 
 .box h3{
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-weight: bold;
     color: #ffffff;
     font-size: 24px;
@@ -602,7 +608,7 @@ h1{
     color: #0083cb;
     text-align: center;
     font-weight: bold;
-    font-family: Nunito;
+    /* font-family: Nunito; */
 }
 
 
@@ -730,7 +736,7 @@ h1{
 .sub-title{
     color: #0083cb; 
     text-align: center; 
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size:30px;
 }
 
@@ -799,7 +805,7 @@ h1{
     justify-content: center;
     color: white;
     font-size: 28px;
-    font-family: Caveat;
+    /* font-family: Caveat; */
   }
 
 
@@ -830,13 +836,13 @@ h1{
 
 .about h1{
     font-weight: bold;
-    font-family: Nunito;
+    /* font-family: Nunito; */
     text-align: center;
 }
 
 
 .about .left p{
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-size: 20px;
     text-align: justify;    
     margin: 5px;
@@ -857,7 +863,7 @@ h1{
 .about .left .btn{
     margin-top: 9px;
     display: inline-block;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
     background:#fff;
     border: 2px solid #037aba;
     color: #0083cb;
@@ -892,7 +898,7 @@ h1{
 
 .left h1{
     color: #fff;
-    font-family: Nunito;
+    /* font-family: Nunito; */
     font-weight: bold;
     font-size: 50px;
 }
@@ -900,7 +906,7 @@ h1{
 
 .left h3{
     color: #fff;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
     font-weight: 200;
     font-size: 35px;
 }
@@ -909,7 +915,7 @@ h1{
 .left a{
     color: #fff;
     font-size: 25px;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
 
 }
 
@@ -1017,7 +1023,7 @@ form input{
     font-size: 15px;
     margin-bottom: 10px;
     background: none;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
 }
 
 form input::placeholder{
@@ -1032,7 +1038,7 @@ form #button{
     /* margin-top: 20px; */
     font-weight: 600;
     font-size: 20px;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
     color: #0083cb;
     width: 100px;
     padding: 5px;
@@ -1099,7 +1105,7 @@ form textarea{
 .blog-heading h1{
     color: #0083cb;
     font-weight: bold;
-    font-family: Nunito;
+    /* font-family: Nunito; */
     text-align: center;
     font-size: 32px;
 }
@@ -1140,7 +1146,7 @@ form textarea{
 
 .blog-text span{
     color: #0083cb;
-    font-family: Nunito;
+    /* font-family: Nunito; */
 }
 
 .blog-text p{
@@ -1152,12 +1158,12 @@ form textarea{
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 20px 0px;
-    font-family: Nunito;
+    /* font-family: Nunito; */
 }
 
 .blog-text a{
     color: #0083cb;
-    font-family: Quicksand;
+    /* font-family: Quicksand; */
 }
 
 .blog-text a:hover{
@@ -1328,8 +1334,3 @@ form textarea{
     width: 50px;
   }
 
- 
-
-  h1{
-    font-family: "Nunito", sans-serif;
-  }

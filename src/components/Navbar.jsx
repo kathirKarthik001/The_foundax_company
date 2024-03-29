@@ -23,6 +23,7 @@ function NavBar() {
   
   return (
     <header className='block text-[#0083CB] font-nunito w-full'>
+
       <nav className="w-full bg-white shadow-md fixed left-0 right-0 block  z-10">
 
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 block">
@@ -34,8 +35,8 @@ function NavBar() {
               {/* LOGO */}
               <Link href="/">
                 <Image
-                      src='/TFC .jpeg'
-                      width={110}
+                      src='/logo1.png'
+                      width={120}
                       height={30}
                       alt="logo"
                       className="focus:border-none active:border-none"
